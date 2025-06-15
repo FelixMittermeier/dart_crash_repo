@@ -1,0 +1,21 @@
+name: dart_crash_repo
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  sentry_flutter: ^8.13.2
+
+dev_dependencies:
+  sentry_dart_plugin: ^2.4.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
